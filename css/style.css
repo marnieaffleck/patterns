@@ -13,8 +13,7 @@ p {
 	margin-bottom: 25px;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Open Sans', serif;
-	font-weight: 500;
+	font-weight: 600;
 }
 h1 {
 	font-size: 2.3rem;
@@ -58,28 +57,32 @@ nav {
 }
 .logomark h6 {
 	margin: 0px;
-	font-size: 26px;
-	font-weight: 500;
+	font-size: 28px;
 }
 .logomark p {
 	margin: 0px;
 	font-size: 14px;
-	transform: translate(0px, -4px);
 }
 /*-----------------BANNER----------------*/
 #banner {
 	margin-top: var(--navbar-height);
 	text-align: center;
-	background-image: url('../images/banner-background-2.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+	background: url('../images/banner-background-2.jpg') center/cover no-repeat fixed;
 	color: white;
 	padding: 8vh 0vh;
 	z-index: 5000;
 }
 #banner p {
 	font-size: 1.3rem;
+	margin: 17px 0px;
+}
+#banner p:last-child {
+	font-size: 1rem;
+	margin: 17px 0px;
+}
+
+hr {
+	width: 50%;
 }
 @media only screen and (max-width: 600px){
 	#banner {
@@ -103,14 +106,19 @@ nav {
 }
 #marnie img {
 	height: 200px;
-	margin: 0px 20px 20px;
 }
 #marnie div:first-child {
 	float: left;
+	padding: 0px 40px 20px 0px;
+}
+#marnie p, #text p {
+	text-indent: 40px;
+	text-align: justify;
 }
 @media only screen and (max-width: 600px){
-	#marnie div:first:child {
+	#marnie div:first-child {
 		float: inherit;
+		padding: 0px 0px 20px;
 	}
 	#marnie {
 		display: flex;
@@ -121,6 +129,7 @@ nav {
 		text-align: center;
 	}
 }
+
 /*-----------------CONTACT----------------*/
 #contact {
 	position: absolute;
@@ -136,10 +145,3 @@ footer {
 	color: #DDD;
 	text-align: center;
 }
-
-
-
-
-
-
-
