@@ -39,7 +39,7 @@ nav {
 	position: fixed;
 	top: 0;
 	left: 0;
-	background-color: #F0FFF0;
+	background-color: #F8F8FF;
 	height: var(--navbar-height);
 	width: 100%;
 	display: flex;
@@ -98,7 +98,7 @@ hr {
 /*-----------------CONTENT----------------*/
 #content {
 	width: 100%;
-	background-color: #efecd5;
+	background-color: #F8F8FF;
 }
 #content .main {
 	background-color: #fff;
