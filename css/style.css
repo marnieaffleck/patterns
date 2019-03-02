@@ -39,7 +39,7 @@ nav {
 	position: fixed;
 	top: 0;
 	left: 0;
-	background-color: #FFFFF0;
+	background-color: #DCDCDC;
 	height: var(--navbar-height);
 	width: 100%;
 	display: flex;
