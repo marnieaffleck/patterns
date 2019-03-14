@@ -145,3 +145,26 @@ footer {
 	color: #DDD;
 	text-align: center;
 }
+#rotas {
+	margin: 100px;
+	width: 85px;
+	height: 85px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	animation: spin 11s infinite linear;
+}
+#rotas div {
+	font-weight: bold;
+	font-size: 0.7rem;
+	width: 17px;
+	height: 17px;
+	text-align: center;
+	line-height: 17px;
+	animation: spin 11s infinite reverse linear;
+}
+@keyframes spin {
+	from {transform:rotate(0deg);}
+	to {transform:rotate(360deg);}
+}
